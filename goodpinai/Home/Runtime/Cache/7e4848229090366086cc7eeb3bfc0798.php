@@ -23,10 +23,9 @@
 	<div class="nav">
 		<div class="nav_main">
 			<img src="__PUBLIC__/Common/Img/nav_main_bg.png" id="nav_main"/>
-			<p>欢迎来到聘爱网!
-				<a href="#" id="signIn">登陆</a>
-				<a href="#" id="signUp">/</a>
-				<a href="#" id="signUp">注册</a>
+			<p>
+				<span>欢迎来到聘爱网!</span>
+				<a href="#" id="signIn">登陆 / 注册</a>
 			</p>
 		</div>
 	</div>
@@ -48,8 +47,8 @@
 	</div>
 	<div class="content_3" id="3">
 		<div>
-			<p>聘列为妻，妻者</p>
-			<p>夫之爱也，爱生活也</p>
+			<p>聘则为妻，妻者，夫之爱也</p>
+			<p>爱，生活也</p>
 		</div>
 		<img src="__PUBLIC__/Index/Img/girl.png" id="girl"/>
 	</div>

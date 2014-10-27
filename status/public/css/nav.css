@@ -11,6 +11,7 @@
 	height:56px;
 }
 .nav_main p{
+	position:relative;
 	text-align:center;
 	margin:0 auto;
 	height:56px;
@@ -18,11 +19,24 @@
 	color:#fff;
 	font-size:14px;
 }
-.nav_main p #signIn,#signUp{
+.nav_main p span{
+	position:absolute;
+	width:110px;
+	left:50%;
+	margin-left:-55px;
+}
+.nav_main p #signIn{
 	float:right;
 	color:#fff;
-	margin-left:3px;
+	margin:13px 10px 0 0;
 	font-weight:bold;
+	width:80px;
+	height:30px;
+	border-radius:4px;
+	line-height:30px;
+}
+.nav_main p #signIn:hover{
+	background:#fa799d;
 }
 .nav_left{
 	position:fixed;
