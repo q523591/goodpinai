@@ -53,9 +53,7 @@
 			for(var i=0;i<arr.length;i++){
 				arr[i].style.width='60px';
 			}
-			if(navNum==false){
-				return false;
-			}else{
+			if(!navNum){
 				navS();
 			}
 		}

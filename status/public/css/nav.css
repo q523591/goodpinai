@@ -7,6 +7,10 @@
 	top:0px;
 	z-index:1;
 }
+#nav_main{
+	position:relative;
+	z-index:2;
+}
 .nav_main{
 	height:56px;
 }

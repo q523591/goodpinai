@@ -19,14 +19,6 @@
 				navNum=false;
 			}
 		}
-	    // function stopBubble(e){
-	    // 	var e=e||windw.event;  
-	    //     if(e&&e.stopPropagation){  
-	    //         e.stopPropagation();  
-	    //     }else{   
-	    //         e.cancelBubble = true;  
-	    //     }  
-    	// }
 		oNavMain.onclick=function(e){
 			if(navNum==true){
 				var arr=oNav.getElementsByTagName('li');
@@ -53,9 +45,7 @@
 			for(var i=0;i<arr.length;i++){
 				arr[i].style.width='60px';
 			}
-			if(navNum==false){
-				return false;
-			}else{
+			if(!navNum){
 				navS();
 			}
 		}

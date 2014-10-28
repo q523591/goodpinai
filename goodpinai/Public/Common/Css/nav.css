@@ -7,6 +7,10 @@
 	top:0px;
 	z-index:1;
 }
+#nav_main{
+	position:relative;
+	z-index:2;
+}
 .nav_main{
 	height:56px;
 }
@@ -25,7 +29,8 @@
 	left:50%;
 	margin-left:-55px;
 }
-.nav_main p #signIn{
+.login_reg{
+	position:relative;
 	float:right;
 	color:#fff;
 	margin:13px 10px 0 0;
@@ -34,8 +39,9 @@
 	height:30px;
 	border-radius:4px;
 	line-height:30px;
+	z-index:2;
 }
-.nav_main p #signIn:hover{
+.login_reg:hover{
 	background:#fa799d;
 }
 .nav_left{
@@ -48,9 +54,6 @@
 	-o-transition:.5s ease;
 	-ms-transition:.5s ease;
 	-moz-transition:.5s ease;
-}
-.nav_left ul{
-	
 }
 .nav_left ul li{
 	color:#6E6E86;
@@ -74,9 +77,6 @@
 .a:hover{
 	background:#6e6e86;
 	color:#fff;
-}
-#signIn{
-	margin-right:20px;
 }
 #nav_main{
 	margin:17px 13px;

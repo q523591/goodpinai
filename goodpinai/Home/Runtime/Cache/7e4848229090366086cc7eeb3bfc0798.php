@@ -10,6 +10,7 @@
 	<title>聘爱网</title>
 </head>
 <body>
+	<script src="__PUBLIC__/Common/Js/jquery-1.11.1.min.js"></script>
 	<div class="nav_left" id="nav_left">
 		<ul>
 			<li style="margin-top:56px;"><a href="#" class="gn-icon fa-home a">首页</a></li>
@@ -18,16 +19,18 @@
 			<li><a href="#" class="gn-icon fa-user a">个人信息</a></li>
 			<li><a href="#" class="gn-icon fa-download a">App下载</a></li>
 		</ul>
+		
 	</div>
-
+	
 	<div class="nav">
 		<div class="nav_main">
 			<img src="__PUBLIC__/Common/Img/nav_main_bg.png" id="nav_main"/>
 			<p>
 				<span>欢迎来到聘爱网!</span>
-				<a href="#" id="signIn">登陆 / 注册</a>
+				<a href="<?php echo U('Index/login_reg');?>" class="login_reg">登陆 / 注册</a>
 			</p>
 		</div>
+		
 	</div>
 	<script src="__PUBLIC__/Common/js/nav.js"></script>
 	<div class="content_1" id="1">
@@ -66,11 +69,10 @@
 			<a href="#" class="EPS">立即体验</a>
 		</div>
 	</div>
-	<div class="footer">
+		<div class="footer">
 		<p>Copyright © 2013 - 2014 All rights reserved. 哈尔滨精灵科技有限公司</p>
 	</div>
 </body>
-<script src="__PUBLIC__/Common/Js/jquery-1.11.1.min.js"></script>
 <script src="__PUBLIC__/Common/Js/jquery.scrollto.js"></script>
 <script type="text/javascript">
 	function scroll(id){
