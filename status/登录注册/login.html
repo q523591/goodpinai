@@ -5,7 +5,7 @@
 <title>Login</title>
 <link rel="stylesheet" type="text/css" href="../public/css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/login.css">
-<script type="text/javascript" src="../public/js/html5shiv.js" ></script>
+<!-- <script type="text/javascript" src="../public/js/html5shiv.js" ></script> -->
 <script type="text/javascript" src="js/login_register.js" ></script>
 <!--[if IE 6]>
 <script src="../public/js/DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
@@ -25,9 +25,7 @@ DD_belatedPNG.fix('*');
 		<div id="login_main_3d">
 			<div id="login_main_wrap">
 				<div id="login_main">
-					<a href="#" class="login_button"><img class="login_img" src="images/login_qq.png" alt="">QQ快捷登录</a>
-					<a href="#" class="login_button"><img class="login_img" src="images/login_microblog.png" alt="">新浪快捷登录</a>
-					<form action="#" method="">
+					<form id="login_in" action="#" method="">
 						<ul class="login_form">
 							<li class="login_li">
 								<span>邮箱:</span>
@@ -43,14 +41,37 @@ DD_belatedPNG.fix('*');
 					</form>
 				</div><!-- end login_main -->
 				<div id="rgs_main">
-					<a href="#" class="login_button"><img class="login_img" src="images/login_qq.png" alt="">QQ快捷登录</a>
-					<a href="#" class="login_button"><img class="login_img" src="images/login_microblog.png" alt="">新浪快捷登录</a>
-					<form action="#" method="">
+					<a href="#" id="rgs_phone" class="login_button"><img class="login_img" src="images/login_qq.png" alt="">手机注册</a>
+					<a href="#" id="rgs_email" class="login_button"><img class="login_img" src="images/login_microblog.png" alt="">邮箱注册</a>
+					<form id="rgs_tab1" action="#" method="">
 						<ul class="login_form">
 							<li class="rgs_li">
-								<span>昵称:</span>
-								<input type="email" name="nickname" autofocus required="required" >
+								<span>手机:</span>
+								<input type="email" name="username" autofocus required="required" >
 							</li>
+							<li class="rgs_li">
+								<span>验证码:</span>
+								<input id="rgs_code" type="text" name="code" required="required" >
+								<a class="login_button" href="javascript:;">发送验证码</a>
+							</li>
+							<li class="rgs_li">
+								<span>密码:</span>
+								<input type="password" name="password" required="required">
+							</li>
+							<li class="rgs_li">
+								<span>重复密码:</span>
+								<input type="password" name="repassword" required="required">
+							</li>
+						</ul>
+						<div id="rgs_clause">
+							<input id="rgs_check" type="checkbox" name="checkbox" checked >
+							<span>同意</span>
+							<a id="rgs_agree" href="#">使用条款</a>
+						</div>
+						<input id="rgs_submit" class="login_rgs_submit" type="submit" value="立即注册">
+					</form>
+					<form id="rgs_tab2" action="#" method="">
+						<ul class="login_form">
 							<li class="rgs_li">
 								<span>邮箱:</span>
 								<input type="email" name="username" autofocus required="required" >
