@@ -13,11 +13,11 @@
 	<script src="__PUBLIC__/Common/Js/jquery-1.11.1.min.js"></script>
 	<div class="nav_left" id="nav_left">
 		<ul>
-			<li style="margin-top:56px;"><a href="#" class="gn-icon fa-home a">首页</a></li>
-			<li><a href="#" class="gn-icon fa-users a">去招聘</a></li>
-			<li><a href="#" class="gn-icon fa-heart a">晒幸福</a></li>
+			<li style="margin-top:56px;"><a href="<?php echo U('Index/index');?>" class="gn-icon fa-home a">首页</a></li>
+			<li><a href="#" class="gn-icon fa-users a">爱情海滩</a></li>
 			<li><a href="#" class="gn-icon fa-user a">个人信息</a></li>
-			<li><a href="#" class="gn-icon fa-download a">App下载</a></li>
+			<li><a href="#" class="gn-icon fa-heart a">晒幸福</a></li>
+			<li><a href="#5" class="gn-icon fa-download a">App下载</a></li>
 		</ul>
 		
 	</div>
@@ -66,7 +66,7 @@
 		<div>
 			<a class="android left" href="#">安卓客户端下载</a>
 			<a class="ios right" href="#">苹果客户端下载</a>
-			<a href="#" class="EPS">立即体验</a>
+			<a href="<?php echo U('Index/login_reg');?>" class="EPS">立即体验</a>
 		</div>
 	</div>
 		<div class="footer">

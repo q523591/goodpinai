@@ -114,6 +114,9 @@
 	line-height:55px;
 	margin-top:200px;
 }
+.android:hover,.ios:hover{
+	background:#fa799d;
+}
 .left{
 	float:left;
 }
@@ -136,6 +139,9 @@
 	float:left;
 	margin-left:140px;
 	margin-top:400px;
+}
+.EPS:hover{
+	background:#f5def5;
 }
 .footer{
 	width:100%;

@@ -1,6 +1,7 @@
 /* ----------------- Login ----------------- */
 .login_li{ margin-top:34px; }
-#login_forget{ display:block; font-size:12px; color:#f17d9a; position:absolute; right:150px; bottom:80px; }
+#login_forget{ display:block; font-size:12px; color:#f17d9a; position:absolute; right:150px; bottom:160px; }
+#login_forget:hover{text-decoration: underline;}
 #login_submit{ margin-top:50px; }
 #login_in{ margin-top:100px; }
 /* ----------------- END Login ----------------- */
@@ -36,16 +37,17 @@ body{ background:#ef698a; }
 #login_main{ z-index:2; }
 #rgs_main{ -webkit-transform:rotateY(180deg); -o-transform:rotateY(180deg); -moz-transform:rotateY(180deg);
 	-ms-transform:rotateY(180deg); transform:rotateY(180deg); }
-.login_button{ display:inline-block; width:180px; height:42px; background:#e8c4c7; color:#ffffff;
+.login_button{ display:inline-block; width:180px; height:42px; background:#ef698a; color:#ffffff;
 	font-size:14px; line-height:42px; text-align:center; border-radius:4px; margin:30px 0 14px 52px; }
-.active{ background:#ef698a; }
+.active{ background:#e4225d;}
 .login_img{ height:24px; margin-top:9px; margin-right:6px; }
 .login_form{ width:380px; }
 .login_form li{ height:40px; font-size:16px; color:#7e7979; line-height:40px; text-align:right; }
-.login_form input{ width:194px; height:16px; margin-left:14px; color:#cccccc; border:2px solid #f17784;
+.login_form input{ width:194px; height:16px; margin-left:14px; color:#797978; border:1px solid #f17784;
 	border-radius:3px; padding:10px; line-height:16px; font-size:14px; }
-.login_rgs_submit{ display:block; width:160px; height:36px; border:2px solid #f3919b; background:#ffffff;
+.login_rgs_submit{ display:block; width:160px; height:36px; border:1px solid #f3919b; background:#ffffff;
 	border-radius:4px; color:#ed5565; font-size:14px; font-weight:bold; margin-left:192px; cursor:pointer; }
+.login_rgs_submit:hover{background: #ffd6f7;}
 /* -----------------END Login & Registration ----------------- */
 
 /* ----------------- Registration ----------------- */
